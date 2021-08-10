@@ -11,13 +11,15 @@ html {
   font-size: 62.5%;
 }
 
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   -webkit-box-sizing: inherit;
           box-sizing: inherit;
 }
 
 body {
-  font-family: 'Kumbh Sans', sans-serif;
+  font-family: "Kumbh Sans", sans-serif;
   background-color: var(--dark-cyan);
   background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
@@ -66,15 +68,18 @@ body {
 }
 
 .card-body-img {
+  width: 200px;
+  height: 200px;
   border: 5px solid white;
   border-radius: 50%;
-  margin-top: calc(-48px - 5px);
+  margin-top: calc(-100px - 5px);
   background-color: white;
 }
 
 .card-body-title {
   margin-top: 2rem;
   font-size: 1.8rem;
+  text-transform: capitalize;
 }
 
 .card-body-title span {
